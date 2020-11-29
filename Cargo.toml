@@ -1,0 +1,11 @@
+[package]
+name = "pairing_demo"
+version = "0.1.0"
+authors = ["Kobi Gurkan <kobigurk@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+ark-bls12-381 = { git = "https://github.com/arkworks-rs/curves" }
+ark-ff = { git = "https://github.com/arkworks-rs/algebra" }
+ark-ec = { git = "https://github.com/arkworks-rs/algebra" }
+rand = "0.7"
